@@ -39,7 +39,7 @@ main{
 }
 
 section.normal {
-    background-color: #ffffff;
+    background-image: linear-gradient(to right, #ffffff, transparent);
     color: #000000;
 }
 
