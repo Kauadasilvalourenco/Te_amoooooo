@@ -22,7 +22,7 @@ body{
 main{
     margin: auto;
     margin-bottom: 30px;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.692);
+    box-shadow: 10px 10px 15px #000000b0;
     display: none;
     padding: 10px 0px 10px 0px;
     max-width: 500px;
@@ -38,26 +38,9 @@ main{
     background-attachment: fixed;
 }
 
-section.secao_imagem h1{
-    text-align: center;
-}
-
 section.normal {
     background-color: #ffffff;
     color: #000000;
-}
-
-img{
-    border-radius: 15px;
-    padding-top: 10px;
-    margin: auto;
-    margin-bottom: 10px;
-    display: block;
-}
-
-audio{
-    margin: auto;
-    display: block;
 }
 
 input#botao_clique{
