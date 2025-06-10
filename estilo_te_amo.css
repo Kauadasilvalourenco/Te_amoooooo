@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Oooh+Baby&display=swap');
+
+
+@font-face {
+    font-family: "Courgette";
+    src: url("fontes/Courgette/Courgette-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Oooh Baby";
+    src: url("fontes/Oooh_Baby/OoohBaby-Regular.ttf") format("truetype");
+}
+
+body{
+    width: 99%;
+    height: 100%;
+    background-color: #D95B4F;
+}
+
+main{
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.692);
+    display: none;
+    padding: 10px 0px 10px 0px;
+    max-width: 500px;
+    min-width: 280px;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #ffffff;
+    background-image: url(imagens/meu_nenem.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+section.secao_imagem h1{
+    text-align: center;
+}
+
+section.normal {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+img{
+    border-radius: 15px;
+    padding-top: 10px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+audio{
+    margin: auto;
+    display: block;
+}
+
+input#botao_clique{
+    text-align: center;
+    margin: auto;
+    display: block;
+    background-color: #8b0000;
+    color: #ffffff;
+    border-radius: 15px;
+    font-family: "Courgette";
+    font-size: 1em;
+    box-shadow: 3px 3px 7px #0000009c;
+}
+
+/*Tags universais*/
+
+h1{
+    text-align: center;
+    font-family: "Courgette";
+
+}
+
+p{
+    font-family: "Oooh Baby";
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 10px;
+    line-height: 50px;
+}
